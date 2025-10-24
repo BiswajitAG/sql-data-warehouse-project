@@ -11,23 +11,20 @@ This project demonstrates a comprehensive data warehousing and analytics solutio
 This project demonstrates the design and implementation of a Modern Data Warehouse using the Medallion Architecture (Bronze, Silver, and Gold layers).
 It showcases end-to-end data engineering, from ingestion and transformation to modeling and reporting — all powered by SQL Server.
 
-### 🧱 Data Architecture
-##### 🥉 Bronze Layer
+## 🧱 Data Architecture
+### 🥉 Bronze Layer
 
 Stores raw data directly from source systems.
-
 Data is ingested from CSV files into the SQL Server Database.
 
-##### 🥈 Silver Layer
+### 🥈 Silver Layer
 
 Performs data cleansing, standardization, and normalization.
-
 Prepares structured data for downstream analytics and reporting.
 
-#### 🥇 Gold Layer
+### 🥇 Gold Layer
 
 Contains business-ready data, modeled in a Star Schema format.
-
 Optimized for reporting, dashboards, and analytical queries.
 
 # sql-data-warehouse-project
