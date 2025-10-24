@@ -47,24 +47,22 @@ This project involves:
 - **Data Modeling**
 - **Data Analytics**
 ---
+
 # 🚀 Project Objectives
 ## 🎯 Data Engineering (Building the Data Warehouse)
 
-**Goal:**
-
-Develop a modern SQL Server–based data warehouse to consolidate sales data and support analytical reporting.
+**Goal:**  
+Develop a modern **SQL Server–based Data Warehouse** to consolidate sales data and support analytical reporting.
 
 **Specifications:**
 
-- **Data Sources:** Import data from ERP and CRM systems (CSV format).
-
-- **Data Quality:** Cleanse and standardize data before loading into the warehouse.
-
-- **Integration:** Combine ERP and CRM data into a unified analytical model.
-
-- **Scope:** Use only the latest dataset (no historization required).
-
+- **Data Sources:** Import data from **ERP** and **CRM** systems (CSV format).  
+- **Data Quality:** Cleanse and standardize data before loading into the warehouse.  
+- **Integration:** Combine ERP and CRM data into a unified analytical model.  
+- **Scope:** Use only the **latest dataset** (no historization required).  
 - **Documentation:** Provide clear documentation for business and analytics teams.
+
+---
 
 # 📊 Data Analytics & Reporting (BI Layer)
 
@@ -163,21 +161,12 @@ These insights empower stakeholders to make data-driven strategic decisions.
 
 # 🎓 Ideal For  
 
-- Students and professionals building **data engineering portfolios**  
+- professionals building **data engineering portfolios**  
 - Anyone learning **ETL, SQL Server, and Data Modeling**  
 - Developers seeking to demonstrate **real-world data warehouse design**
 
 ---
 
-# ⭐ How to Get Started  
-
-1. Clone the repository  
-2. Download the datasets (CSV files)  
-3. Set up **SQL Server Express** and **SSMS**  
-4. Execute the provided SQL scripts for each layer (Bronze → Silver → Gold)  
-5. Explore the analytics queries and dashboards  
-
----
 
 **Author:** *Biswajit das*  
 💬 *Feel free to fork, explore, and contribute!*
