@@ -15,21 +15,25 @@ It showcases end-to-end data engineering, from ingestion and transformation to m
 ### 🥉 Bronze Layer
 
 Stores raw data directly from source systems.
+
 Data is ingested from CSV files into the SQL Server Database.
 
 ### 🥈 Silver Layer
 
 Performs data cleansing, standardization, and normalization.
+
 Prepares structured data for downstream analytics and reporting.
 
 ### 🥇 Gold Layer
 
 Contains business-ready data, modeled in a Star Schema format.
+
 Optimized for reporting, dashboards, and analytical queries.
 
 # sql-data-warehouse-project
 Building a modern data warehouse using medallion architecture with SQL Server, including ETL processes, data modeling and analytics.
 
+---
  # 📖 Project Overview
 This project involves:
 
