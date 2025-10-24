@@ -51,6 +51,7 @@ This project involves:
 ## 🎯 Data Engineering (Building the Data Warehouse)
 
 **Goal:**
+
 Develop a modern SQL Server–based data warehouse to consolidate sales data and support analytical reporting.
 
 **Specifications:**
@@ -68,57 +69,115 @@ Develop a modern SQL Server–based data warehouse to consolidate sales data and
 # 📊 Data Analytics & Reporting (BI Layer)
 
 **Goal:**
+
 Deliver actionable business insights through SQL-based analytics and visual dashboards.
 
-Key Insights:
+**Key Insights:**
 
-🧍‍♂️ Customer Behavior
+- **🧍‍♂️ Customer Behavior**
 
-📦 Product Performance
+- **📦 Product Performance**
 
-💰 Sales Trends
+- **💰 Sales Trends**
 
 These insights empower stakeholders to make data-driven strategic decisions.
 
-🧩 Key Components
-Component	Description
-🗂️ Data Architecture	Medallion architecture with Bronze, Silver, and Gold layers
-⚙️ ETL Pipelines	Extraction, Transformation, and Loading using SQL Server
-🧮 Data Modeling	Star schema design with fact and dimension tables
-📈 Analytics & Reporting	SQL-based reports and dashboards
-💼 Skills & Roles Demonstrated
+---
 
-This project is a perfect showcase for professionals and students aspiring to become:
+# 🧩 Key Components  
 
-🧠 Data Architect
+| Component | Description |
+|------------|-------------|
+| 🗂️ **Data Architecture** | Medallion architecture with Bronze, Silver, and Gold layers |
+| ⚙️ **ETL Pipelines** | Extraction, Transformation, and Loading using SQL Server |
+| 🧮 **Data Modeling** | Star schema design with fact and dimension tables |
+| 📈 **Analytics & Reporting** | SQL-based reports and dashboards |
 
-⚙️ Data Engineer
+---
 
-🔄 ETL Pipeline Developer
+# 💼 Skills & Roles Demonstrated  
 
-🧾 SQL Developer
+- 🧠 **Data Architect**  
+- ⚙️ **Data Engineer**  
+- 🔄 **ETL Pipeline Developer**  
+- 🧾 **SQL Developer**  
+- 📊 **Data Analyst / BI Developer**
 
-📊 Data Analyst / BI Developer
+---
 
-🛠️ Tools & Resources
-Tool	Purpose
-Datasets (CSV Files)	Project source data
-SQL Server Express	Lightweight SQL Server instance
-SQL Server Management Studio (SSMS)	Database management and query execution
-GitHub	Version control and project collaboration
-Draw.io	Data flow & architecture diagrams
-Notion	Project management and task tracking
-🧭 Project Navigation
-Phase	Description
-1️⃣ Data Architecture Design	Model Bronze, Silver, and Gold layers
-2️⃣ Data Ingestion (ETL)	Load CSV data into SQL Server
-3️⃣ Data Transformation	Cleanse and standardize data
-4️⃣ Data Modeling	Create fact & dimension tables
-5️⃣ Analytics & Reporting	Generate business insights using SQL queries
-🎓 Ideal For
+# 🛠️ Tools & Resources  
 
-Students and professionals building data engineering portfolios
+| Tool | Purpose |
+|------|----------|
+| **Datasets (CSV Files)** | Project source data |
+| **SQL Server Express** | Lightweight SQL Server instance |
+| **SQL Server Management Studio (SSMS)** | Database management and query execution |
+| **GitHub** | Version control and project collaboration |
+| **Draw.io** | Data flow & architecture diagrams |
+| **Notion** | Project management and task tracking |
 
-Anyone learning ETL, SQL Server, and Data Modeling
+---
 
-Developers seeking to demonstrate real-world data warehouse design
+# 📂 Repository Structure  
+
+```
+📦 Modern-Data-Warehouse-Project
+├── 📁 data
+│   ├── erp_data.csv
+│   ├── crm_data.csv
+│   └── readme.txt
+│
+├── 📁 sql_scripts
+│   ├── 01_bronze_layer.sql
+│   ├── 02_silver_layer.sql
+│   ├── 03_gold_layer.sql
+│   └── 04_reporting_queries.sql
+│
+├── 📁 diagrams
+│   ├── data_flow.drawio
+│   ├── star_schema.png
+│   └── architecture_overview.png
+│
+├── 📁 documentation
+│   ├── data_model_description.md
+│   └── project_notes.md
+│
+├── 📁 reports
+│   ├── sales_insights.sql
+│   └── kpi_dashboard_queries.sql
+│
+└── README.md
+```
+
+---
+
+# 🧭 Project Navigation  
+
+1. **Data Architecture Design** – Model Bronze, Silver, and Gold layers  
+2. **Data Ingestion (ETL)** – Load CSV data into SQL Server  
+3. **Data Transformation** – Cleanse and standardize data  
+4. **Data Modeling** – Create fact & dimension tables  
+5. **Analytics & Reporting** – Generate business insights using SQL queries  
+
+---
+
+# 🎓 Ideal For  
+
+- Students and professionals building **data engineering portfolios**  
+- Anyone learning **ETL, SQL Server, and Data Modeling**  
+- Developers seeking to demonstrate **real-world data warehouse design**
+
+---
+
+# ⭐ How to Get Started  
+
+1. Clone the repository  
+2. Download the datasets (CSV files)  
+3. Set up **SQL Server Express** and **SSMS**  
+4. Execute the provided SQL scripts for each layer (Bronze → Silver → Gold)  
+5. Explore the analytics queries and dashboards  
+
+---
+
+**Author:** *Biswajit das*  
+💬 *Feel free to fork, explore, and contribute!*
