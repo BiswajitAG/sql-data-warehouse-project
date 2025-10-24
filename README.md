@@ -5,6 +5,13 @@ Welcome to the **Data Warehouse and Analytics Project** repository!🚀
 This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
 
 ---
+# 🏗️ Modern Data Warehouse Project (Medallion Architecture)
+📖 Overview
+
+This project demonstrates the design and implementation of a Modern Data Warehouse using the Medallion Architecture (Bronze, Silver, and Gold layers).
+It showcases end-to-end data engineering, from ingestion and transformation to modeling and reporting — all powered by SQL Server.
+
+
 
 # sql-data-warehouse-project
 Building a modern data warehouse using medallion architecture with SQL Server, including ETL processes, data modeling and analytics.
