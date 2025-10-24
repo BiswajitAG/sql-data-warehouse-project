@@ -6,7 +6,6 @@ This project demonstrates a comprehensive data warehousing and analytics solutio
 
 ---
 # 🏗️ Modern Data Warehouse Project (Medallion Architecture)
-📖 Overview
 
 This project demonstrates the design and implementation of a Modern Data Warehouse using the Medallion Architecture (Bronze, Silver, and Gold layers).
 It showcases end-to-end data engineering, from ingestion and transformation to modeling and reporting — all powered by SQL Server.
@@ -29,9 +28,6 @@ Prepares structured data for downstream analytics and reporting.
 Contains business-ready data, modeled in a Star Schema format.
 
 Optimized for reporting, dashboards, and analytical queries.
-
-# sql-data-warehouse-project
-Building a modern data warehouse using medallion architecture with SQL Server, including ETL processes, data modeling and analytics.
 
 ---
  # 📖 Project Overview
